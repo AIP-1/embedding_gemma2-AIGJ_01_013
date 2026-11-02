@@ -1,0 +1,26 @@
+# 모델 가중치·캐시
+models/
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ts
+*.npz
+.cache/
+# 가상환경·파이썬 캐시
+eg2/
+*venv*/
+__pycache__/
+*.pyc
+# 접속 정보
+.env
+.cam.env
+.ipcam
+# 큰 미디어·데이터
+*.mp4
+*.mkv
+*.wav
+*.log
+media/
+data/
